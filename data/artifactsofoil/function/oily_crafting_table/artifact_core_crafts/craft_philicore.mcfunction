@@ -1,0 +1,4 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"artifactsofoil:philippine_artifact_core","minecraft:rarity":"rare","minecraft:item_name":'"Philippine Artifact Core"',"minecraft:lore":['{"color":"dark_purple","text":"-----------------------"}','{"color":"#FFFFCC","text":"This core may be used"}','{"color":"#FFFFCC","text":"to craft a shield from"}', '{"color":"#FFFFCC","text":"the pearl of the orient"}'],"minecraft:custom_data":{philicore:true},"minecraft:max_stack_size":1}}]}
+execute at @s run particle minecraft:splash ~ ~0.5 ~ 0 0 0 0.01 100 force
+execute at @s run playsound minecraft:block.honey_block.break block @a ~ ~ ~ 1 0.5
+execute at @s run playsound minecraft:block.anvil.use block @a ~ ~ ~ 1 0.5
