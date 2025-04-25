@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Soul",
+  "category": "food",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": [
+      "minecraft:soul_sand"
+    ],
+    "b": [
+      "minecraft:amethyst_shard"
+    ]
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 64,
+      "minecraft:item_name": "\"Damned Soul\"",
+      "minecraft:item_model": "artifactsofoil:damned_soul",
+      "minecraft:custom_data": {"damnedsoul":true},
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 8,
+        "can_always_eat": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "animation": "eat",
+        "sound": "minecraft:entity.generic.eat",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "duration": 120
+              },
+              {
+                "id": "minecraft:darkness",
+                "duration": 120
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Melon",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "cbc",
+    " a "
+  ],
+  "key": {
+    "a": [
+      "minecraft:lapis_lazuli"
+    ],
+    "b": [
+      "minecraft:melon_slice"
+    ],
+    "c": [
+      "minecraft:blue_dye"
+    ]
+  },
+  "result": {
+    "id": "minecraft:melon_slice",
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:item_name": "\"Blue Melon Slice\"",
+      "minecraft:item_model": "artifactsofoil:blue_melon_slice",
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:water_breathing",
+          "duration": 700
+        },
+        {
+          "id": "minecraft:night_vision",
+          "duration": 700
+        }
+      ],
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 2,
+        "can_always_eat": true
+      }
+    },
+    "count": 1
+  }
+}

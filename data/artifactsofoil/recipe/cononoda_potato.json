@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Potato",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": [
+      "minecraft:potato"
+    ],
+    "b": [
+      "minecraft:gold_nugget"
+    ]
+  },
+  "result": {
+    "id": "minecraft:potato",
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:item_name": "\"Cononoda Potato\"",
+      "minecraft:item_model": "artifactsofoil:cononoda_potato",
+      "minecraft:lore": [
+        "\"Scrumptious\""
+      ],
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:haste",
+          "duration": 500
+        }
+      ],
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 6,
+        "can_always_eat": true
+      }
+    },
+    "count": 1
+  }
+}

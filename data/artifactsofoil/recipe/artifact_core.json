@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Core",
+  "category": "misc",
+  "pattern": [
+    "bab",
+    "aca",
+    "bab"
+  ],
+  "key": {
+    "a": [
+      "minecraft:dark_oak_planks"
+    ],
+    "b": [
+      "minecraft:amethyst_shard"
+    ],
+    "c": [
+      "minecraft:gold_ingot"
+    ]
+  },
+  "result": {
+    "id": "minecraft:jigsaw",
+    "components": {
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 1,
+      "minecraft:item_name": "\"Artifact Core\"",
+      "minecraft:item_model": "artifactsofoil:artifact_core",
+      "minecraft:custom_data": {"artifactcore":true},
+      "minecraft:lore": [
+        "{\"text\":\"--------------------------\"}",
+        "{\"text\":\"Artifact cores may be used to\", \"color\":\"#ffffcc\"}",
+        "{\"text\":\"craft Oily Artifacts, they\", \"color\":\"#ffffcc\"}",
+        "{\"text\":\"require a specific gemstone\", \"color\":\"#ffffcc\"}",
+        "{\"text\":\"depending on the artifact to\", \"color\":\"#ffffcc\"}",
+        "{\"text\":\"be crafted.\", \"color\":\"#ffffcc\"}"
+      ]
+    },
+    "count": 1
+  }
+}

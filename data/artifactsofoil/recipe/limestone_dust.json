@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "Limestone",
+  "category": "misc",
+  "pattern": [],
+  "key": {},
+  "ingredients": [
+    [
+      "minecraft:dripstone_block",
+      "minecraft:calcite"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:jigsaw",
+    "components": {
+      "minecraft:rarity": "common",
+      "minecraft:item_model": "artifactsofoil:limestone_dust",
+      "minecraft:custom_data": {"limestone_dust":true},
+      "minecraft:max_stack_size": 64,
+      "minecraft:item_name": "\"Limestone Dust\""
+    },
+    "count": 2
+  }
+}

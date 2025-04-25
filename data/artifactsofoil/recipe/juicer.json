@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Juicer",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "bb",
+    "bb"
+  ],
+  "key": {
+    "a": [
+      "minecraft:white_carpet"
+    ],
+    "b": "#minecraft:planks"
+  },
+  "result": {
+    "id": "minecraft:glow_item_frame",
+    "components": {
+      "minecraft:item_model": "artifactsofoil:juicer",
+      "minecraft:max_stack_size": 64,
+      "minecraft:item_name": "\"Juicer\"",
+      "minecraft:entity_data": {
+        "id": "minecraft:glow_item_frame",
+        "Invulnerable": true,
+        "Tags": [
+          "artifactsofoil.juicer",
+          "artifactsofoil.item_frame_block",
+          "artifactsofoil.juice_crafting"
+        ],
+        "Facing": 1,
+        "Invisible": true,
+        "Fixed": true
+      }
+    },
+    "count": 1
+  }
+}
