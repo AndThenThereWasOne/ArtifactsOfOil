@@ -1,0 +1,2 @@
+execute as @s at @s[predicate=artifactsofoil:polab_gambling] anchored eyes run summon minecraft:phantom ^ ^ ^2 {active_effects:[{id:"minecraft:resistance",amplifier:100,duration:100,show_particles:0b},{id:"minecraft:fire_resistance",amplifier:5,duration:5,show_particles:0b}]}
+advancement revoke @s only artifactsofoil:click_polabblade

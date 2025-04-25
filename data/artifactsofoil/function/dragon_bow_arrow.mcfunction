@@ -1,0 +1,3 @@
+execute at @e[tag=dragon_arrow,nbt={inGround:1b, weapon:{components:{"minecraft:custom_data":{dragon_bow:true}} , count: 1}}] run summon area_effect_cloud ~ ~ ~ {Particle:{type:"dragon_breath"},Radius:2f,Duration:100,potion_contents:{potion:"minecraft:harming",custom_effects:[{id:"minecraft:darkness",duration:100,show_particles:1b,show_icon:1b}]}}
+execute at @e[tag=dragon_arrow,nbt={inGround:1b, weapon:{components:{"minecraft:custom_data":{dragon_bow:true}} , count: 1}}] run particle minecraft:explosion ~ ~ ~ 0.1 0.1 0.1 0.1 3 force
+execute at @e[tag=dragon_arrow,nbt={inGround:1b, weapon:{components:{"minecraft:custom_data":{dragon_bow:true}} , count: 1}}] run playsound minecraft:entity.dragon_fireball.explode block @a ~ ~ ~ 0.5 1
