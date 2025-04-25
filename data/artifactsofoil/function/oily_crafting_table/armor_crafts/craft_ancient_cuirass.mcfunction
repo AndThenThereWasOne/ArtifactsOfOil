@@ -1,0 +1,3 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:leather_chestplate",count:1,components:{"minecraft:max_stack_size":1,"minecraft:equippable":{slot:"chest",asset_id:"artifactsofoil:cuirass"},"minecraft:item_model":"artifactsofoil:ancient_cuirass","minecraft:attribute_modifiers":[{id:"cuirass.armor",type:"armor",amount:8,operation:"add_value"},{id:"cuirass.armor.toughness",type:"armor_toughness",amount:2,operation:"add_value"}],"minecraft:custom_data":{cuirass:true},"minecraft:item_name":'"Ancient Cuirass"',"minecraft:max_damage":400,"minecraft:repair_cost":1,"minecraft:rarity":"common"}}]}
+execute at @s run particle minecraft:splash ~ ~0.5 ~ 0 0 0 0.01 100 force
+execute at @s run playsound minecraft:block.honey_block.break block @a ~ ~ ~ 1 0.5
