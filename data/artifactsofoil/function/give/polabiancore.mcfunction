@@ -1,0 +1,1 @@
+/give @s jigsaw[item_model="artifactsofoil:polabian_artifact_core",item_name='"Polabian Artifact Core"',rarity="rare",lore=['{"color":"dark_purple","text":"--------------------------"}','{"color":"#FFFFCC","text":"This core may be used"}','{"color":"#FFFFCC","text":"to craft a cursed blade."}'],custom_data={polabiancore:true},max_stack_size=1] 1

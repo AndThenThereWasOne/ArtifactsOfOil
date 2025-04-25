@@ -1,0 +1,1 @@
+give @s suspicious_stew[item_name='"Pomy\'s 1-Day Blinding Stew"',custom_data={blinding_stew:true},suspicious_stew_effects=[{id:"minecraft:blindness",duration:1728000},{id:"minecraft:darkness",duration:1728000}],max_stack_size=1,item_model="artifactsofoil:blinding_stew"] 1

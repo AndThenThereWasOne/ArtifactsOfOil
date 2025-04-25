@@ -1,0 +1,1 @@
+/give @s carrot[consumable={animation:"drink",sound:"entity.generic.drink"},food={nutrition:5,saturation:4,can_always_eat:false},item_name='"Orange Juice"',item_model="artifactsofoil:orange_juice",use_remainder={id:"minecraft:glass_bottle",count:1},custom_data={orange_juice:true},max_stack_size=64] 1

@@ -1,0 +1,1 @@
+/give @s jigsaw[item_model="artifactsofoil:frisian_artifact_core",item_name='"Frisian Artifact Core"',rarity="rare",lore=['{"color":"dark_purple","text":"--------------------------"}','{"color":"#FFFFCC","text":"This core may be used"}','{"color":"#FFFFCC","text":"to craft a gnomish hammer."}'],custom_data={frisiancore:true},max_stack_size=1] 1

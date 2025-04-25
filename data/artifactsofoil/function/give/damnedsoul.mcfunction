@@ -1,0 +1,1 @@
+/give @s poisonous_potato[max_stack_size=64,rarity="common",item_name='"Damned Soul"',item_model="damned_soul",custom_data={damnedsoul:true},food={nutrition:4,saturation:8,can_always_eat:true},consumable={consume_seconds:1.6,animation:"eat",sound:"entity.generic.eat",has_consume_particles:true}] 1

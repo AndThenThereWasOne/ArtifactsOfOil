@@ -1,0 +1,1 @@
+/give @p carrot[consumable={animation:"drink",sound:"entity.generic.drink"},food={nutrition:6,saturation:6,can_always_eat:false},item_name='"Passion Fruit Juice"',item_model="artifactsofoil:passion_fruit_juice",use_remainder={id:"minecraft:glass_bottle",count:1},custom_data={passion_juice:true},max_stack_size=64] 1

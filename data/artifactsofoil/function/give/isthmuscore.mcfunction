@@ -1,0 +1,1 @@
+/give @s jigsaw[item_model="artifactsofoil:isthmus_artifact_core",item_name='"Isthmus Artifact Core"',rarity="rare",lore=['{"color":"dark_purple","text":"--------------------------"}','{"color":"#FFFFCC","text":"This core may be used"}','{"color":"#FFFFCC","text":"to craft the bow of"}','{"color":#FFFFCC","text":"dragons."}'],custom_data={isthmuscore:true},max_stack_size=1] 1
