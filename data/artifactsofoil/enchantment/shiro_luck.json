@@ -1,0 +1,35 @@
+{
+    "description": "Shiro's Luck",
+    "supported_items": "minecraft:netherite_pickaxe",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:block_experience": [
+        {
+          "effect": {
+            "type": "minecraft:multiply",
+            "factor": {
+              "type": "minecraft:linear",
+              "value": {
+                "type": ""
+              },
+              "base": 1.5,
+              "per_level_above_first": 0
+            }
+          }
+        }
+      ]
+    }
+  }
