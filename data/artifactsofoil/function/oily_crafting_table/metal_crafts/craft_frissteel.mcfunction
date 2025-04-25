@@ -1,0 +1,3 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:jigsaw",count:1,components:{"minecraft:item_model":"artifactsofoil:frisian_steel","minecraft:custom_data":{frissteel:true},"minecraft:rarity":"common","minecraft:item_name":'{"color":"green","text":"Frisian Steel"}',"minecraft:max_stack_size":64}}]}
+execute at @s run particle minecraft:splash ~ ~0.5 ~ 0 0 0 0.01 100 force
+execute at @s run playsound minecraft:block.honey_block.break block @a ~ ~ ~ 1 0.5
