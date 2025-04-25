@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type":"minecraft:item",
+                    "name":"minecraft:glow_item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"text\":\"Juicer\", \"italic\":false}",
+                                "minecraft:item_model": "artifactsofoil:juicer",
+                                "entity_data": {
+                                    "id": "minecraft:glow_item_frame",
+                                    "Tags": [
+                                        "artifactsofoil.juicer",
+                                        "artifactsofoil.item_frame_block",
+                                        "artifactsofoil.juice_crafting"
+                                    ],
+                                    "Facing": 1,
+                                    "Invulnerable": 1,
+                                    "Invisible": 1,
+                                    "Fixed": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

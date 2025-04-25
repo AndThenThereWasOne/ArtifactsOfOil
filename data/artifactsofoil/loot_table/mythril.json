@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type":"minecraft:item",
+                    "name":"minecraft:jigsaw",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:rarity": "common",
+                                "minecraft:item_name": "{\"text\":\"Mythril Ingot\", \"italic\":false}",
+                                "minecraft:item_model": "artifactsofoil:mythril",
+                                "minecraft:custom_data": {"mythril":true},
+                                "minecraft:damage_resistant": {
+                                  "types": "#artifactsofoil:lightfire"
+                                  }
+                                
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 9
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
