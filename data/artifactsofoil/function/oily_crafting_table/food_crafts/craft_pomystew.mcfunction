@@ -1,0 +1,3 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:suspicious_stew",count:1,components:{"minecraft:item_model":"artifactsofoil:blinding_stew","minecraft:item_name":'{"text":"Pomy\'s 1-Day Blinding Stew"}',"minecraft:custom_data":{blindingstew:true},"minecraft:suspicious_stew_effects":[{id:"minecraft:blindness",duration:1728000},{id:"minecraft:darkness",duration:1728000}],"minecraft:max_stack_size":1}}]}
+execute at @s run particle minecraft:splash ~ ~0.5 ~ 0 0 0 0.01 100 force
+execute at @s run playsound minecraft:block.honey_block.break block @a ~ ~ ~ 1 0.5
