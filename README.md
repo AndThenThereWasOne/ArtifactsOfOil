@@ -10,7 +10,7 @@ It has been developed chiefly by @drakenstrike on Discord.
 
 ## I want help!
 
-We have a Wiki up for it, for any questions about it, check it out [here](../../wiki).
+We have a Wiki up for it, for any questions about it, check it out [here](https://github.com/AndThenThereWasOne/ArtifactsOfOil/wiki).
 
 For any support with the github repository, contact @abraxicus, or @drakenstrike.
 
