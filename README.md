@@ -12,7 +12,7 @@ It has been developed chiefly by drakenstrike on Discord.
 
 We have a Wiki up for it, for any questions about it, check it out [here](https://github.com/AndThenThereWasOne/ArtifactsOfOil/wiki).
 
-For any support with the github repository, contact abraxicus, or drakenstrike.
+For any support with the github repository, contact drakenstrike.
 
 ## I want to modify this or contribute!
 
