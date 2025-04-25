@@ -18,4 +18,4 @@ For any support with the github repository, contact abraxicus, or drakenstrike.
 
 If you'd like to contribute in any meaningful form, join the [Ollie Bye Community](https://discord.gg/93rgpVt).
 
-Do not use any of the assets within this datapack for commercial purposes. Give the mandated credit to @drakenstrike.
+Do not use any of the assets within this datapack for commercial purposes. Give the mandated credit to drakenstrike.
