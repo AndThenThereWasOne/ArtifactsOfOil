@@ -1,0 +1,28 @@
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "predicates": {
+              "minecraft:custom_data": {"mythril_set":true}
+            }
+          },
+          "chest": {
+            "predicates": {
+              "minecraft:custom_data": {"mythril_set":true}
+            }
+          },
+          "legs": {
+            "predicates": {
+              "minecraft:custom_data": {"mythril_set":true}
+            }
+          },
+          "feet": {
+            "predicates": {
+              "minecraft:custom_data": {"mythril_set":true}
+            }
+          }
+        }
+      }
+    }
