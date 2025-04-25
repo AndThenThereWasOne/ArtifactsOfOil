@@ -1,6 +1,6 @@
 # Artifacts Of Oil
 
-[](artifactsrepo.png)
+![Artifacts of Oil Title Screen](artifactsrepo.png)
 
 ## What is this?
 
