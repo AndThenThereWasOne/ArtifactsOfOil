@@ -1,6 +1,6 @@
 # Artifacts Of Oil
 
-(artifactsrepo.png)
+[](artifactsrepo.png)
 
 ## What is this?
 
