@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:carrot",count:1,components:{"minecraft:item_model":"artifactsofoil:orange_juice","minecraft:consumable":{animation:"drink",sound:"entity.generic.drink"},"minecraft:item_name":'"Orange Juice"',"minecraft:custom_data":{orange_juice:true},"minecraft:use_remainder":{id:"minecraft:glass_bottle",count:1},"minecraft:food":{nutrition:6,saturation:6},"minecraft:max_stack_size":64}}]}
+execute at @s run playsound minecraft:block.crafter.craft block @a ~ ~ ~ 1 1
